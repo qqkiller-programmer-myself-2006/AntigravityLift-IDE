@@ -1,0 +1,53 @@
+﻿cargo :    Compiling 
+tauri-runtime-wry 
+v2.10.0
+At line:1 char:1
++ cargo build 2>&1 | 
+Out-File -FilePath 
+build_log.txt 
+-Encoding utf8; G ...
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (   Compili   
+ ng tauri-runtime-    
+wry v2.10.0:Strin    
+g) [], RemoteExce    
+ption
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+   Compiling 
+graviton-ide v0.1.0 (C
+:\Users\qqkiller2006-w
+in11\Desktop\IDE\src-t
+auri)
+   Compiling tauri 
+v2.10.1
+   Compiling 
+tauri-plugin-shell 
+v2.3.4
+error: proc macro 
+panicked
+  --> 
+src\main.rs:70:14
+   |
+70 |         .run(taur
+i::generate_context!()
+)
+   |              ^^^^
+^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: message: 
+The `frontendDist` 
+configuration is set 
+to `"../dist"` but 
+this path doesn't 
+exist
+
+error: could not 
+compile 
+`graviton-ide` (bin 
+"graviton-ide") due 
+to 1 previous error

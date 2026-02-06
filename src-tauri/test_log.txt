@@ -1,0 +1,65 @@
+﻿cargo :    Compiling 
+graviton-ide v0.1.0 (C
+:\Users\qqkiller2006-w
+in11\Desktop\IDE\src-t
+auri)
+At line:1 char:1
++ cargo test 2>&1 | 
+Out-File -FilePath 
+test_log.txt 
+-Encoding utf8; Get 
+...
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (   Compili   
+ ng gr...\IDE\src-    
+tauri):String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+    Finished `test` 
+profile [unoptimized 
++ debuginfo] 
+target(s) in 1.72s
+     Running 
+unittests src\lib.rs (
+target\debug\deps\grav
+iton_lib-f9d16be0771ac
+9c1.exe)
+
+running 5 tests
+test mcp_client::tests::test_extension_manager_invoke ... ok
+test mcp_client::tests::test_extension_manager_load ... ok
+test mcp_client::tests::test_extension_not_found ... ok
+test mcp_client::tests::test_mock_extension_invoke ... ok
+test mcp_client::tests::test_mock_extension_creation ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running 
+unittests src\main.rs 
+(target\debug\deps\gra
+viton_ide-039cc0864283
+7dba.exe)
+
+running 7 tests
+test mcp_client::tests::test_extension_manager_invoke ... ok
+test mcp_client::tests::test_extension_manager_load ... ok
+test mcp_client::tests::test_extension_not_found ... ok
+test mcp_client::tests::test_mock_extension_creation ... ok
+test mcp_client::tests::test_mock_extension_invoke ... ok
+test tests::test_extension_trait_implementation ... ok
+test tests::test_mcp_client_loads_correctly ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests 
+graviton_lib
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
